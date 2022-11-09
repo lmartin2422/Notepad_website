@@ -14,4 +14,4 @@ Oncer the user logs in, they can write and delete notes.
 
 The notes are stored on the display screen.
 
-Also, the website implements a database that stores the user's login credentials.
+Also, the website utilizes a database that stores the user's login credentials.
