@@ -1,6 +1,6 @@
 # python_flask_website
 
-My name is Leonard Martin and I am a Jr. Software Developer
+Full Stack Development with Flask
 
 I created a website using Python, Flask, HTML, and Javascript.
 
