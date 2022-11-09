@@ -1,0 +1,59 @@
+{% extends "base.html" %} {% block title %}SIGN-UP{% endblock %}
+<!-- this template will be the exact same as the base.html -->
+
+<!-- puts a heading on the homepage -->
+    <div class="container">
+        {% block content %}
+        <form method="POST">
+            <h3 align="center">Sign Up</h3>
+            <!-- form group established below -->
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+                placeholder="Enter email"
+                />
+                <!--name variable above represents the name of the data sent to the backend-->
+            </div>
+            <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input
+                type="text"
+                class="form-control"
+                id="firstName"
+                name="firstName"
+                placeholder="Enter first name"
+                />
+                <!--name variable above represents the name of the data sent to the backend-->
+            </div>
+            <div class="form-group">
+                <label for="password1">Password </label>
+                <input
+                type="password"
+                class="form-control"
+                id="password1"
+                name="password1"
+                placeholder="Enter password"
+                />
+            </div>
+                <div class="form-group">
+                <label for="password2">Password (Confirm) </label>
+                <input
+                type="password"
+                class="form-control"
+                id="password2"
+                name="password2"
+                placeholder="Confirm password"
+                />
+                <!--name variable above represents the name of the data sent to the backend-->
+            </div>
+            <br />
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        {% endblock %}
+    </div>
+
+
