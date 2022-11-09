@@ -1,6 +1,6 @@
-# python_flask_website
+# Full Stack Development with Flask 
 
-Full Stack Development with Flask
+python_flask_website
 
 I created a website using Python, Flask, HTML, and Javascript.
 
